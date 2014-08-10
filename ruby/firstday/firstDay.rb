@@ -5,6 +5,9 @@ puts "Hello, world."
 # Find index of Ruby in variable string
 
 string = "Hello, Ruby."
+indexOfRuby = string.index('Ruby')
+
+puts "The word Ruby in the string '#{string}' starts at index #{indexOfRuby}"
 
 # Print name ten times
 
